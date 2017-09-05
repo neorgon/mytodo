@@ -1,0 +1,32 @@
+{
+  "name": "mytodo.no",
+  "version": "1.0.0",
+  "description": "My Todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neorgon/mytodo.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "API"
+  ],
+  "author": "Nestor Otondo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neorgon/mytodo/issues"
+  },
+  "homepage": "https://github.com/neorgon/mytodo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10"
+  }
+}
